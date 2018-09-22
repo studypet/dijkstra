@@ -50,7 +50,7 @@ while(true) {
 
     $paths[$minPoint]["fixed"] = true;
     $currentPoint = $minPoint;
-    $currentWeight = $paths[$minPoint]["weight"];
+    $currentWeight = $minWeight;
 
 }
 
